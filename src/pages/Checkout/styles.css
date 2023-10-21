@@ -1,0 +1,77 @@
+.checkout-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f4f4f4;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+  }
+  
+  /* Heading styles */
+  .checkout-header {
+    font-size: 28px;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  /* Cart items styles */
+  .cart-item {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+  }
+  
+  .cart-item h3 {
+    font-size: 20px;
+    color: #333;
+    margin: 0;
+  }
+  
+  .cart-item p {
+    font-size: 16px;
+    color: #666;
+    margin: 0;
+  }
+  
+  /* Total cost styles */
+  .total-cost {
+    font-size: 24px;
+    margin-top: 20px;
+    color: #333;
+  }
+  
+  /* Input field styles */
+  .input-field {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 18px;
+  }
+  
+  /* Error message styles */
+  .error-message {
+    color: red;
+    font-size: 16px;
+  }
+  
+  /* Link button styles */
+  .proceed-button {
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    background-color: #007bff;
+    color: #fff;
+    padding: 12px 20px;
+    border-radius: 8px;
+    font-weight: bold;
+    font-size: 18px;
+    transition: background-color 0.3s;
+  }
+  
+  .proceed-button:hover {
+    background-color: #0056b3;
+  }

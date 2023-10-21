@@ -1,0 +1,5 @@
+export {default as ItemListContainer} from './Home/Home'
+export {default as ItemDetailContainer} from './ItemDetail/ItemDetail'
+export {default as CheckoutPage} from './Checkout/Checkout'
+export {default as CartPage} from './Cart/Index'
+export {default as CategoriesPage} from './Categories/index'

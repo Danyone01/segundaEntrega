@@ -1,14 +1,16 @@
+import { Link } from "react-router-dom"
 
-const Item = ({id, nombre, precio, descripcion, imgUrl}) =>  {
+
+const Item = ({ id, nombre, precio, descripcion, urlImage }) =>  {
     return (
         <div>
-            <img style={{width:"200px", height:"120px"}} src="{imgUrl}" alt="imagen articulo" />
+            <img style={{width:"200px", height:"120px"}} src={urlImage} alt="imagen articulo" />
             <h1>{nombre}</h1>
-            <p>{descripcion}</p>
+            <p>{descripcion}</p> 
             <p>{precio}</p>
-            <button>Añadir al carrito</button>
+            <Link to={`/item/${id}`}>Ver detalle</Link>
         </div>
-    )
-}
+    );
+};
 
-export default Item
+export default Item;
